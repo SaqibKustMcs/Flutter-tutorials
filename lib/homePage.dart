@@ -18,6 +18,10 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Column(
         children: [
+          Text("my name is saqib",textAlign: TextAlign.center,textDirection: TextDirection.ltr,maxLines: 3,overflow: TextOverflow.ellipsis,softWrap: true,style: TextStyle(fontWeight: FontWeight.w400,fontSize: 20,color: Colors.black),)
+
+
+
           // RadioListTile(
           //     title: Text("Male"),
           //     value: "male", groupValue: gender, onChanged: (value){
